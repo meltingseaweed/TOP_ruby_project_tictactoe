@@ -91,14 +91,6 @@ class Board
     end
   end   
 
-  def declare_winner(player)
-    if player == "x"
-      puts "Player X is the winner!! Congratulations!"
-    elsif player == "o"
-      puts "Player O is the winner!! Congratulations!"
-    end
-  end
-
 end
 
 
