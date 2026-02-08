@@ -2,6 +2,7 @@
 class Board
   include Instructions
   include CheckWinner
+  include ResetGame
 
   def initialize(name)
     @name=name
@@ -72,9 +73,5 @@ class Board
     elsif (@row1[2] == "o") && (@row2[1] == "o") && (@row3[0] == "o")
       true
     end
-  end   
-
+  end
 end
-
-
-
